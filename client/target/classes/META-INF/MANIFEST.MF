@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1413887321379
+Build-Jdk: 1.7.0_65
+Built-By: saggarath
+Bundle-Blueprint: OSGI-INF/blueprint/context.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: client
+Bundle-SymbolicName: client
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.xml.bind.annotation,org.osgi.service.blueprint;ver
+ sion="[1.0.0,2.0.0)",org.apache.camel;version="[2.13,3)",org.apache.cam
+ el.builder;version="[2.13,3)",org.apache.camel.model;version="[2.13,3)"
+ ,org.apache.http,org.apache.http.client,org.apache.http.client.methods,
+ org.apache.http.conn,org.apache.http.impl.client,org.slf4j;version="[1.
+ 7,2)",org.apache.cxf.jaxrs.client,com.fasterxml.jackson.annotation,java
+ x.ws.rs.ext;version="[2.0,3)",javax.ws.rs.core;version="[2.0,3)",javax.
+ ws.rs;version="[2.0,3)",com.fasterxml.jackson.databind,com.fasterxml.ja
+ ckson.jaxrs.json,com.fasterxml.jackson.core,javax.ws.rs.client;version=
+ "[2.0,3)"
+Tool: Bnd-2.1.0.20130426-122213
